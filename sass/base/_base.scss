@@ -1,0 +1,17 @@
+*,
+*:after,
+*:before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Gothic+A1:wght@400;600&display=swap');
+body {
+    width: 100vw;
+    margin: 0px;
+    padding: 0;
+    background-color: #0F1112;
+    font-family: 'Gothic A1', sans-serif;
+    box-sizing: border-box;
+}

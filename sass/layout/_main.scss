@@ -1,0 +1,18 @@
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 30rem;
+    background-image: url('https://www.nasa.gov/sites/default/files/styles/full_width_feature/public/thumbnails/image/iss064e030134.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-origin: border-box;
+    overflow: hidden;
+}
+
+.main__title {
+    color: white;
+    font-size: 2rem;
+    font-weight: 400;
+}

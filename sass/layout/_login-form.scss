@@ -1,0 +1,106 @@
+.login {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 1rem;
+    min-height: calc(100vh - 8rem);
+    color: white;
+}
+
+.login__container {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    border: 2px white solid;
+    padding: 3rem 3rem 3rem;
+    border-radius: 40px;
+    max-width: 40rem;
+    width: 25rem;
+    height: 35rem;
+    background-color: #a4b0b900;
+    min-height: 100%;
+}
+
+.login__container--form {
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.login__container--remember-me {
+    color: white;
+    font-size: 0.8rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.login__container--remember-me label input {
+    padding: 0;
+}
+
+.login__container--remember-me a {
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+.login__container--remember-me a:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+.login__container--social-media>div {
+    display: flex;
+    align-items: flex-end;
+    font-size: 0.8rem;
+    margin-bottom: 0.8rem;
+    margin-top: 0.8rem
+}
+
+.login__container--social-media>div:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.login__container--social-media>div>img {
+    width: 1.2rem;
+    margin-right: 0.4rem;
+}
+
+.login__container--register {
+    font-size: 0.8rem;
+    justify-content: center;
+}
+
+.login__container--register a {
+    font-size: 1rem;
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+}
+
+.login__container--register a:hover {
+    text-decoration: underline;
+}
+
+@media only screen and (max-width:600px) {
+    .login {
+        height: 100%;
+    }
+    .login__container {
+        padding: 1rem;
+        width: auto;
+        border-radius: 0;
+        border: none;
+    }
+    .login__container--register {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 1rem
+    }
+    .login__container--social-media {
+        margin-top: 1rem;
+    }
+}

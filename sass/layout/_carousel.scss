@@ -1,0 +1,34 @@
+.carousel {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    overflow-x: scroll;
+    padding: 1rem 0;
+    position: relative;
+    margin: auto;
+}
+
+
+/* width */
+
+.carousel::-webkit-scrollbar {
+    width: 5px;
+    height: 5px;
+}
+
+
+/* Track */
+
+.carousel::-webkit-scrollbar-track {
+    border-radius: 10px;
+}
+
+
+/* Handle */
+
+.carousel::-webkit-scrollbar-thumb {
+    background: rgba(231, 231, 231, 0.438);
+    border-radius: 10px;
+}
