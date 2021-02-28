@@ -1,5 +1,8 @@
 .footer {
     display: flex;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
     align-items: center;
     height: 3rem;
     background-color: #181C1F;

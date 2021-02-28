@@ -15,11 +15,9 @@
     border: 2px white solid;
     padding: 3rem 3rem 3rem;
     border-radius: 40px;
-    max-width: 40rem;
+    height: 100%;
     width: 25rem;
-    height: 35rem;
     background-color: #a4b0b900;
-    min-height: 100%;
 }
 
 .login__container--form {
@@ -102,5 +100,17 @@
     }
     .login__container--social-media {
         margin-top: 1rem;
+    }
+}
+
+@media only screen and (min-width:1280px) {
+    .login__container {
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+        border: 2px white solid;
+        padding: 3rem 3rem 3rem;
+        height: 100%;
+        width: 25rem;
     }
 }
