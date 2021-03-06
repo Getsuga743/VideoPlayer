@@ -1,0 +1,18 @@
+.comments {
+    display: flex;
+    margin: auto;
+    ul {
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+        overflow: hidden;
+        margin: auto;
+        li {
+            display: flex;
+        }
+    }
+}
+
+.comments:hover {
+    background-color: wheat;
+}
